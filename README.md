@@ -1,4 +1,4 @@
 summerofloathing
 ================
 
-Webart with @sexisweird
+Webart with [@sexisweird](http://twitter.com/sexisweird)

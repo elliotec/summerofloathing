@@ -6,18 +6,18 @@ function flash(){
   split = text.split(" ");
   countmax = split.length;
     if(c % 2 === 0){
-      $('body, #back').css('background-color', 'white')
-      $('body, #back').css('color', 'purple')
+      $('body').css('background-color', 'white')
+      $('body').css('color', '#e5509a')
     } else {
-        $('body, #back').css('background-color', 'purple')
-        $('body, #back').css('color', 'white')
+        $('body').css('background-color', '#e5509a')
+        $('body').css('color', 'white')
     }
   $("#flashit").text(split[c]);
 
   c = c + 1;
   if (c > countmax)
     c = 0
-  setTimeout("flash()", 300);
+  setTimeout("flash()", 230);
 }
 
 flash();

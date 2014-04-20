@@ -11,13 +11,14 @@ a {
 }
 
 a:hover {
-  color: #FF59AC;
+  color: #e5509a;
 }
 
 
 ul {
   list-style-type: none;
-  margin: 10em 0 0 30em;
+  width: 25%;
+  margin: 10em auto;
   font-size: 14pt;
 }
 
@@ -26,7 +27,7 @@ li {
 }
 
 .whatever {
-  width: 45%;
+  width: 50%;
   margin-top: 10em;
   margin-left:auto;
   margin-right:auto;

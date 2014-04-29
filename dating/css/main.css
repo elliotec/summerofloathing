@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  width: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.btn-custom {
+  background-color: hsl(201, 100%, 40%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5509a", endColorstr="#e5509a");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e5509a), to(#e5509a));
+  background-image: -moz-linear-gradient(top, #e5509a, #e5509a);
+  background-image: -ms-linear-gradient(top, #e5509a, #e5509a);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5509a), color-stop(100%, #e5509a));
+  background-image: -webkit-linear-gradient(top, #e5509a, #e5509a);
+  background-image: -o-linear-gradient(top, #e5509a, #e5509a);
+  background-image: linear-gradient(#e5509a, #e5509a);
+  border-color: #e5509a #e5509a hsl(201, 100%, 40%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+  -webkit-font-smoothing: antialiased;
+}
+
+h3, em {
+  color: #e5509a;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}

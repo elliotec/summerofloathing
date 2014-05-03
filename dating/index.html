@@ -64,8 +64,19 @@
         <div class="form-group">
           <label class="col-md-4 control-label" for="salary">salary</label>
           <div class="col-md-4">
-            <input id="salary" name="salary" type="number" placeholder="salary" class="form-control input-md"><span class="help-block">enter 0 if none, then kill yourself</span>
-            
+            <select id="salary" name="salary" class="form-control">
+              <option value="0-10,000">$0-$10,000</option>
+              <option value="0-10,000">$10,000-$20,000</option>
+              <option value="0-10,000">$20,000-$30,000</option>
+              <option value="0-10,000">$30,000-$40,000</option>
+              <option value="0-10,000">$40,000-$50,000</option>
+              <option value="0-10,000">$50,000-$60,000</option>
+              <option value="0-10,000">$60,000-$70,000</option>
+              <option value="0-10,000">$70,000-$80,000</option>
+              <option value="0-10,000">$80,000-$90,000</option>
+              <option value="0-10,000">$90,000-$100,000</option>
+              <option value="0-10,000">$100,000+</option>
+            </select>
           </div>
         </div>
         <!-- Select Basic -->
@@ -92,7 +103,7 @@
         <div class="form-group">
           <label class="col-md-4 control-label" for="singlebutton"></label>
           <div class="col-md-4">
-            <button id="singlebutton" name="singlebutton" class="btn btn-custom">continue</button>
+            <a href="areyou.html" class="btn btn-custom">continue</a>
           </div>
         </div>
       </fieldset>
@@ -100,7 +111,9 @@
   </div>
   <div class="container">
     <footer>
-      <p><em>meet postmodern singles in your area!</em></p>
+      <div class="bubble">
+        <h2><em>meet postmodern singles in your area!</em></h3>
+      </div>
     </footer>
   </div>
   <script>
